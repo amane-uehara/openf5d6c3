@@ -1,0 +1,107 @@
+* {
+	position:absolute;
+}
+#oth_board {
+	width:300px;
+	height:350px;
+}
+
+.board { z-index:0;top:20px; left:20px; width:257px; height:257px; background-image:url(./board.png);}
+.a { top:0px; left:20px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.b { top:0px; left:52px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.c { top:0px; left:84px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.d { top:0px; left:116px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.e { top:0px; left:148px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.f { top:0px; left:180px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.g { top:0px; left:212px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.h { top:0px; left:244px; width:32px; height:20px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l1 { top:30px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l2 { top:62px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l3 { top:94px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l4 { top:126px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l5 { top:158px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l6 { top:190px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l7 { top:222px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.l8 { top:254px; left:0px; width:20px; height:32px; font-size:14px; color:#000000; background-color:#ffffff; text-align:center;}
+.a1 { z-index:1;top:23px; left:23px; width:27px; height:27px;}
+.b1 { z-index:1;top:23px; left:55px; width:27px; height:27px;}
+.c1 { z-index:1;top:23px; left:87px; width:27px; height:27px;}
+.d1 { z-index:1;top:23px; left:119px; width:27px; height:27px;}
+.e1 { z-index:1;top:23px; left:151px; width:27px; height:27px;}
+.f1 { z-index:1;top:23px; left:183px; width:27px; height:27px;}
+.g1 { z-index:1;top:23px; left:215px; width:27px; height:27px;}
+.h1 { z-index:1;top:23px; left:247px; width:27px; height:27px;}
+.a2 { z-index:1;top:55px; left:23px; width:27px; height:27px;}
+.b2 { z-index:1;top:55px; left:55px; width:27px; height:27px;}
+.c2 { z-index:1;top:55px; left:87px; width:27px; height:27px;}
+.d2 { z-index:1;top:55px; left:119px; width:27px; height:27px;}
+.e2 { z-index:1;top:55px; left:151px; width:27px; height:27px;}
+.f2 { z-index:1;top:55px; left:183px; width:27px; height:27px;}
+.g2 { z-index:1;top:55px; left:215px; width:27px; height:27px;}
+.h2 { z-index:1;top:55px; left:247px; width:27px; height:27px;}
+.a3 { z-index:1;top:87px; left:23px; width:27px; height:27px;}
+.b3 { z-index:1;top:87px; left:55px; width:27px; height:27px;}
+.c3 { z-index:1;top:87px; left:87px; width:27px; height:27px;}
+.d3 { z-index:1;top:87px; left:119px; width:27px; height:27px;}
+.e3 { z-index:1;top:87px; left:151px; width:27px; height:27px;}
+.f3 { z-index:1;top:87px; left:183px; width:27px; height:27px;}
+.g3 { z-index:1;top:87px; left:215px; width:27px; height:27px;}
+.h3 { z-index:1;top:87px; left:247px; width:27px; height:27px;}
+.a4 { z-index:1;top:119px; left:23px; width:27px; height:27px;}
+.b4 { z-index:1;top:119px; left:55px; width:27px; height:27px;}
+.c4 { z-index:1;top:119px; left:87px; width:27px; height:27px;}
+.d4 { z-index:1;top:119px; left:119px; width:27px; height:27px;}
+.e4 { z-index:1;top:119px; left:151px; width:27px; height:27px;}
+.f4 { z-index:1;top:119px; left:183px; width:27px; height:27px;}
+.g4 { z-index:1;top:119px; left:215px; width:27px; height:27px;}
+.h4 { z-index:1;top:119px; left:247px; width:27px; height:27px;}
+.a5 { z-index:1;top:151px; left:23px; width:27px; height:27px;}
+.b5 { z-index:1;top:151px; left:55px; width:27px; height:27px;}
+.c5 { z-index:1;top:151px; left:87px; width:27px; height:27px;}
+.d5 { z-index:1;top:151px; left:119px; width:27px; height:27px;}
+.e5 { z-index:1;top:151px; left:151px; width:27px; height:27px;}
+.f5 { z-index:1;top:151px; left:183px; width:27px; height:27px;}
+.g5 { z-index:1;top:151px; left:215px; width:27px; height:27px;}
+.h5 { z-index:1;top:151px; left:247px; width:27px; height:27px;}
+.a6 { z-index:1;top:183px; left:23px; width:27px; height:27px;}
+.b6 { z-index:1;top:183px; left:55px; width:27px; height:27px;}
+.c6 { z-index:1;top:183px; left:87px; width:27px; height:27px;}
+.d6 { z-index:1;top:183px; left:119px; width:27px; height:27px;}
+.e6 { z-index:1;top:183px; left:151px; width:27px; height:27px;}
+.f6 { z-index:1;top:183px; left:183px; width:27px; height:27px;}
+.g6 { z-index:1;top:183px; left:215px; width:27px; height:27px;}
+.h6 { z-index:1;top:183px; left:247px; width:27px; height:27px;}
+.a7 { z-index:1;top:215px; left:23px; width:27px; height:27px;}
+.b7 { z-index:1;top:215px; left:55px; width:27px; height:27px;}
+.c7 { z-index:1;top:215px; left:87px; width:27px; height:27px;}
+.d7 { z-index:1;top:215px; left:119px; width:27px; height:27px;}
+.e7 { z-index:1;top:215px; left:151px; width:27px; height:27px;}
+.f7 { z-index:1;top:215px; left:183px; width:27px; height:27px;}
+.g7 { z-index:1;top:215px; left:215px; width:27px; height:27px;}
+.h7 { z-index:1;top:215px; left:247px; width:27px; height:27px;}
+.a8 { z-index:1;top:247px; left:23px; width:27px; height:27px;}
+.b8 { z-index:1;top:247px; left:55px; width:27px; height:27px;}
+.c8 { z-index:1;top:247px; left:87px; width:27px; height:27px;}
+.d8 { z-index:1;top:247px; left:119px; width:27px; height:27px;}
+.e8 { z-index:1;top:247px; left:151px; width:27px; height:27px;}
+.f8 { z-index:1;top:247px; left:183px; width:27px; height:27px;}
+.g8 { z-index:1;top:247px; left:215px; width:27px; height:27px;}
+.h8 { z-index:1;top:247px; left:247px; width:27px; height:27px;}
+
+.black { z-index:1; top:277px; left:20px; width:16px; height:28px; font-size:20px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif; color:#000000; background-color:#c0c0e0; text-align:left;}
+.n_black { z-index:1; top:277px; left:38px; width:32px; height:28px; font-size:20px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif; color:#000000; background-color:#c0c0e0; text-align:left;}
+.white { z-index:1; top:277px; left:72px; width:16px; height:28px; font-size:20px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif; color:#ffffff; background-color:#c0c0e0; text-align:left;}
+.n_white { z-index:1; top:277px; left:90px; width:32px; height:28px; font-size:20px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif; color:#000000; background-color:#c0c0e0; text-align:left;}
+.bw_bg { z-index:0; top:277px; left:20px; width:257px; height:28px; background-color:#c0c0e0;}
+
+.button_top { top:305px; left:20px; width:51px; height:35px; font-size:18px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif;}
+.button_previous { top:305px; left:71px; width:51px; height:35px; font-size:18px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif;}
+.button_kifu { top:305px; left:122px; width:53px; height:35px; font-size:18px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif;}
+.button_next { top:305px; left:175px; width:51px; height:35px; font-size:18px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif;}
+.button_end { top:305px; left:226px; width:51px; height:35px; font-size:18px; font-family: "ÇlÇr ÉSÉVÉbÉN",sans-serif;}
+
+body{padding:0 0 0 0; color:#000000; background-color:#ffffff; text-align:left;}
+a:link{color:#0000ff;}
+a:visited{color:#800080;}
+a:hover{text-decoration:underline; color:#ff0000;}
+a:active{color:#ff0000;}

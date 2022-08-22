@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//Ddiv HTML 4.01 Transitional//EN">
+<html lang="ja">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<title>オセロ棋譜再生スクリプト「オセラ」</title>
+<script src="osera.js"></script>
+<link rel="stylesheet" type="text/css" href="osera.css">
+</head>
+<body onLoad="onload()">
+
+<div id="oth_board">
+	<div class="board"></div>
+	
+	<div class="a">a</div>
+	<div class="b">b</div>
+	<div class="c">c</div>
+	<div class="d">d</div>
+	<div class="e">e</div>
+	<div class="f">f</div>
+	<div class="g">g</div>
+	<div class="h">h</div>
+
+	<div class="l1">1</div>
+	<div class="l2">2</div>
+	<div class="l3">3</div>
+	<div class="l4">4</div>
+	<div class="l5">5</div>
+	<div class="l6">6</div>
+	<div class="l7">7</div>
+	<div class="l8">8</div>
+
+	<div class="a1" id="oth_0"></div>
+	<div class="b1" id="oth_1"></div>
+	<div class="c1" id="oth_2"></div>
+	<div class="d1" id="oth_3"></div>
+	<div class="e1" id="oth_4"></div>
+	<div class="f1" id="oth_5"></div>
+	<div class="g1" id="oth_6"></div>
+	<div class="h1" id="oth_7"></div>
+
+	<div class="a2" id="oth_8"></div>
+	<div class="b2" id="oth_9"></div>
+	<div class="c2" id="oth_10"></div>
+	<div class="d2" id="oth_11"></div>
+	<div class="e2" id="oth_12"></div>
+	<div class="f2" id="oth_13"></div>
+	<div class="g2" id="oth_14"></div>
+	<div class="h2" id="oth_15"></div>
+
+	<div class="a3" id="oth_16"></div>
+	<div class="b3" id="oth_17"></div>
+	<div class="c3" id="oth_18"></div>
+	<div class="d3" id="oth_19"></div>
+	<div class="e3" id="oth_20"></div>
+	<div class="f3" id="oth_21"></div>
+	<div class="g3" id="oth_22"></div>
+	<div class="h3" id="oth_23"></div>
+
+	<div class="a4" id="oth_24"></div>
+	<div class="b4" id="oth_25"></div>
+	<div class="c4" id="oth_26"></div>
+	<div class="d4" id="oth_27"></div>
+	<div class="e4" id="oth_28"></div>
+	<div class="f4" id="oth_29"></div>
+	<div class="g4" id="oth_30"></div>
+	<div class="h4" id="oth_31"></div>
+
+	<div class="a5" id="oth_32"></div>
+	<div class="b5" id="oth_33"></div>
+	<div class="c5" id="oth_34"></div>
+	<div class="d5" id="oth_35"></div>
+	<div class="e5" id="oth_36"></div>
+	<div class="f5" id="oth_37"></div>
+	<div class="g5" id="oth_38"></div>
+	<div class="h5" id="oth_39"></div>
+
+	<div class="a6" id="oth_40"></div>
+	<div class="b6" id="oth_41"></div>
+	<div class="c6" id="oth_42"></div>
+	<div class="d6" id="oth_43"></div>
+	<div class="e6" id="oth_44"></div>
+	<div class="f6" id="oth_45"></div>
+	<div class="g6" id="oth_46"></div>
+	<div class="h6" id="oth_47"></div>
+
+	<div class="a7" id="oth_48"></div>
+	<div class="b7" id="oth_49"></div>
+	<div class="c7" id="oth_50"></div>
+	<div class="d7" id="oth_51"></div>
+	<div class="e7" id="oth_52"></div>
+	<div class="f7" id="oth_53"></div>
+	<div class="g7" id="oth_54"></div>
+	<div class="h7" id="oth_55"></div>
+
+	<div class="a8" id="oth_56"></div>
+	<div class="b8" id="oth_57"></div>
+	<div class="c8" id="oth_58"></div>
+	<div class="d8" id="oth_59"></div>
+	<div class="e8" id="oth_60"></div>
+	<div class="f8" id="oth_61"></div>
+	<div class="g8" id="oth_62"></div>
+	<div class="h8" id="oth_63"></div>
+
+	<div class="black">●</div>
+	<div class="n_black"><div id="oth_n_black"></div></div>
+	<div class="white">●</div>
+	<div class="n_white"><div id="oth_n_white"></div></div>
+	<div class="bw_bg"></div>
+
+	<input type="button" class="button_top" value=" |&lt; " onClick="i_top()">
+	<input type="button" class="button_previous"value=" &lt;&lt; " onClick="i_previous()">
+	<input type="button" class="button_kifu" value="diag" onClick="disp_kifu()">
+	<input type="button" class="button_next" value=" &gt;&gt; " onClick="i_next()">
+	<input type="button" class="button_end" value=" &gt;| " onClick="i_end()">
+</div>
+
+</body>
+</html>
